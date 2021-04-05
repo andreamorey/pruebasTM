@@ -18,7 +18,6 @@ function showSports(d) {
   
   const sports = d['dadesPropies']['esports'];
   for (var i = 0; i < sports.length; i++) {
-    /*
     var a = document.createElement("div");
     a.className = 'col-md-6 col-lg-4 mb-5';
 
@@ -42,8 +41,8 @@ function showSports(d) {
     c.appendChild(d);
 
     catalogo.appendChild(a);
-    */
-    catalogo.innerHTML += sports[i];
+    
+    //catalogo.innerHTML += sports[i];
   }
   
 }
