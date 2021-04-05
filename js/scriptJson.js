@@ -23,6 +23,7 @@ function showSports(d) {
 
     var b = document.createElement("div");
     b.classList.add('portfolio-item', 'mx-auto');
+    ("#portfolioModal1").modal('toggle');
     //b.attr("data-toggle", "modal");
     //b.attr("data-target", "#portfolioModal1");
     
