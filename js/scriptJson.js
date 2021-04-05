@@ -24,12 +24,12 @@ function showSports(d) {
 
     var b = document.createElement("div");
     b.classList.add('portfolio-item', 'mx-auto');
-    b.attr("data-toggle", "modal");
-    b.attr("data-target", "#portfolioModal1");
+    //b.attr("data-toggle", "modal");
+    //b.attr("data-target", "#portfolioModal1");
     
-    var img = document.createElement("img");
-    img.className = 'img-fluid';
-    img.src = d['imatges'][i];
+    var im = document.createElement("img");
+    im.className = 'img-fluid';
+    im.src = d['imatges'][i];
     //b.appendChild(img);
     //a.appendChild(b);
     
@@ -43,7 +43,7 @@ function showSports(d) {
 
     c.appendChild(d);
     b.appendChild(c);
-    b.appendChild(img);
+    b.appendChild(im);
     a.appendChild(b);
     catalogo.appendChild(a);
    
