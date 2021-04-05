@@ -18,7 +18,6 @@ function showSports(d) {
   
   const sports = d['dadesPropies']['esports'];
   for (var i = 0; i < sports.length; i++) {
-    
     var a = document.createElement("div");
     a.classList.add('col-md-6', 'col-lg-4', 'mb-5');
 
@@ -28,25 +27,25 @@ function showSports(d) {
     b.attr("data-target", "#portfolioModal1");
     
     var img = document.createElement("img");
+    img.className = 'img-fluid';
     img.src = d['imatges'][i];
-    b.appendChild(img);
-    a.appendChild(b);
+    //b.appendChild(img);
+    //a.appendChild(b);
     
     var c = document.createElement("div");
     c.classList.add('portfolio-item-caption', 'd-flex', 'align-items-center', 'justify-content-center', 'h-100', 'w-100');
-    b.appendChild(c);
+    //b.appendChild(c);
 
     var d = document.createElement("div");
     d.classList.add('portfolio-item-caption-content', 'text-center', 'text-white', 'sport');
     d.innerHTML = sports[i];
-    c.appendChild(d);
 
+    c.appendChild(d);
+    b.appendChild(c);
+    b.appendChild(img);
+    a.appendChild(b);
     catalogo.appendChild(a);
-    /*
-    catalogo.appendChild(b);
-    catalogo.appendChild(c);
-    catalogo.appendChild(d);
-    */
+   
     //catalogo.innerHTML += sports[i];    esto ha impreso todos los nombres de deportes omgggg
   }
   
