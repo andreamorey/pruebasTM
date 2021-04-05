@@ -43,5 +43,5 @@ function showSports(d) {
     catalogo.appendChild(a);
   }
   */
-  catalogo.innerHTML('<br>Putooooooooo!');
+  catalogo.innerHTML = '<br>Putooooooooo!';
 //}
