@@ -17,7 +17,8 @@ request.onreadystatechange = function () {
 function showSports(d) {
   
   const sports = d['dadesPropies']['esports'];
-  for (var i = 0; i < sports.length; i++) {
+  //for (var i = 0; i < sports.length; i++) {
+    var i = 0;
     var a = document.createElement("div");
     a.classList.add('col-md-6', 'col-lg-4', 'mb-5');
 
@@ -47,6 +48,6 @@ function showSports(d) {
     catalogo.appendChild(a);
    
     //catalogo.innerHTML += sports[i];    esto ha impreso todos los nombres de deportes omgggg
-  }
+  //}
   
 }
