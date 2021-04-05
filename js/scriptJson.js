@@ -43,7 +43,7 @@ function showSports(d) {
 
     catalogo.appendChild(a);
     */
-    catalogo.innerHTML += '<br>sports[i]';
+    catalogo.innerHTML += sports[i];
   }
   
 }
