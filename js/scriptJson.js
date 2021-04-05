@@ -42,7 +42,6 @@ function showSports(d) {
     b.appendChild(im);
     a.appendChild(b);
     catalogo.appendChild(a);
-   
   }
   
 }
