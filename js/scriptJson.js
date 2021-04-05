@@ -38,4 +38,5 @@ function showSports(d) {
     c.appendChild(d);
   }
   document.getElementById("catalogo").appendChild(a);
+  document.getElementById("catalogo").innerHTML("putooooooo")
 }
