@@ -1,4 +1,4 @@
-[
+
   {
   "nom":"",
   "descripcio": "",
@@ -7,17 +7,17 @@
   "identificador":"",
   "comentari": "exemple: posar tipus de menjar del restaurante",
   "preu":{
-  "-import":"",
-  "coment-preu":""
+    "-import":"",
+    "coment-preu":""
   },
   "contacte":{
-  "telf": "", 
-  "email": "",
-  "xarxes": [ 
-  {"facebook": ""},
-  {"twitter": ""},
-  {"tripadvisor": ""}
-  ]
+    "telf": "", 
+    "email": "",
+    "xarxes": [ 
+      {"facebook": ""},
+      {"twitter": ""},
+      {"tripadvisor": ""}
+    ]
   },
   "puntuacio":"",
   "visualitzacions":"",
@@ -105,5 +105,4 @@
       "BALONMANO"
     ]
   }
-  }
-  ]
+}
