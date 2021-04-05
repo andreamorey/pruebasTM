@@ -1,4 +1,5 @@
 const catalogo = document.getElementById('catalogo');
+/*
 var request = new XMLHttpRequest();
 var url = "js/datos.json";
 
@@ -41,5 +42,6 @@ function showSports(d) {
 
     catalogo.appendChild(a);
   }
+  */
   catalogo.innerHTML('<br>Putooooooooo!');
-}
+//}
