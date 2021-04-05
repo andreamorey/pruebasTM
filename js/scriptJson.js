@@ -29,18 +29,21 @@ function showSports(d) {
     var img = document.createElement("img");
     img.src = d['imatges'][i];
     b.appendChild(img);
-    a.appendChild(b);
+    //a.appendChild(b);
 
     var c = document.createElement("div");
     c.className = 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100';
-    b.appendChild(c);
+    //b.appendChild(c);
 
     var d = document.createElement("div");
     d.className = 'portfolio-item-caption-content text-center text-white sport';
     d.innerHTML = sports[i];
-    c.appendChild(d);
+    //c.appendChild(d);
 
     catalogo.appendChild(a);
+    catalogo.appendChild(b);
+    catalogo.appendChild(c);
+    catalogo.appendChild(d);
     
     //catalogo.innerHTML += sports[i];
   }
