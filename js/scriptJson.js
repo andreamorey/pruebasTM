@@ -18,6 +18,7 @@ function showSports(d) {
   
   const sports = d['dadesPropies']['esports'];
   for (var i = 0; i < sports.length; i++) {
+    /*
     var a = document.createElement("div");
     a.className = 'col-md-6 col-lg-4 mb-5';
 
@@ -25,12 +26,13 @@ function showSports(d) {
     b.className = 'portfolio-item mx-auto';
     b.attr("data-toggle", "modal");
     b.attr("data-target", "#portfolioModal1");
-
+    */
     var img = document.createElement("img");
     img.src = d['imatges'][i];
-    b.appendChild(img);
+    //b.appendChild(img);
+    catalogo.appendChild(img);
     //a.appendChild(b);
-
+    /*
     var c = document.createElement("div");
     c.className = 'portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100';
     //b.appendChild(c);
@@ -41,11 +43,12 @@ function showSports(d) {
     //c.appendChild(d);
 
     catalogo.appendChild(a);
+    /*
     catalogo.appendChild(b);
     catalogo.appendChild(c);
     catalogo.appendChild(d);
-    
-    //catalogo.innerHTML += sports[i];
+    */
+    //catalogo.innerHTML += sports[i];    esto ha impreso todos los nombres de deportes omgggg
   }
   
 }
