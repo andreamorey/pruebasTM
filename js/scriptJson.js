@@ -15,9 +15,10 @@ request.onreadystatechange = function () {
 }
 
 function showSports(d) {
-  /*
+  
   const sports = d['dadesPropies']['esports'];
   for (var i = 0; i < sports.length; i++) {
+    /*
     var a = document.createElement("div");
     a.className = 'col-md-6 col-lg-4 mb-5';
 
@@ -37,11 +38,12 @@ function showSports(d) {
 
     var d = document.createElement("div");
     d.className = 'portfolio-item-caption-content text-center text-white sport';
-    d.textContent = sports[i];
+    d.innerHTML = sports[i];
     c.appendChild(d);
 
     catalogo.appendChild(a);
+    */
+    catalogo.innerHTML += '<br>sports[i]';
   }
-  */
-  catalogo.innerHTML = '<br>Putooooooooo!';
+  
 }
