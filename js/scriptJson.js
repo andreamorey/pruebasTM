@@ -15,7 +15,6 @@ request.onreadystatechange = function () {
 }
 
 function showSports(d) {
-  
   const sports = d['dadesPropies']['esports'];
   for (var i = 0; i < sports.length; i++) {
     var a = document.createElement("div");
