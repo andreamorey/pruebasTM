@@ -40,7 +40,8 @@ function showSports(d) {
     b.appendChild(c);
     b.appendChild(im);
     a.appendChild(b);
-    catalogo.appendChild(a);
+    //catalogo.appendChild(a);
+    catalogo.append(a);
   }
   
 }
