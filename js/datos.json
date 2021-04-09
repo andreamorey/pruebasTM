@@ -1,5 +1,4 @@
-
-  {
+{
   "nom":"",
   "descripcio": "",
   "detall": "",
@@ -40,8 +39,8 @@
   "https://github.com/andreamorey/pruebasTM/blob/main/assets/img/portfolio/balonmano.png?raw=true"
   ],
   "videos": [
-  {"tipus": "youtube"},
-  {"url": ""}
+  {"tipus": "youtube",
+   "url": "assets/videos/video-deportes.mp4"} 
   ],
   "audio": [
   {"tipus": "youtube"},
