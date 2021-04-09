@@ -525,8 +525,8 @@ pre code {
   width: 100%;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 576px) {
@@ -574,8 +574,8 @@ pre code {
 .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
   position: relative;
   width: 100%;
-  padding-right: 3rem;
-  padding-left: 3rem;
+  padding-right: 6rem;
+  padding-left: 6rem;
 }
 
 .col {
